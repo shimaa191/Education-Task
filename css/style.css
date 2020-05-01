@@ -1,3 +1,14 @@
+/* "last courses" section style*/
+#last-courses
+{
+    color: white;
+}
+.last-courses-left
+{
+    background-image: url(../images/Latest_Courses/1.png);
+}
+/* end of "last courses" section style*/
+
 /*The style of the "Apply for Admission" section*/
 #apply
 {
