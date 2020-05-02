@@ -1,11 +1,83 @@
 /* "last courses" section style*/
 #last-courses
 {
+    width: 100%;
     color: white;
+}
+.last-courses-right
+{
+    background-image: url(../images/Latest_Courses/2.png);
+    background-size: cover;
+    display: none;
 }
 .last-courses-left
 {
     background-image: url(../images/Latest_Courses/1.png);
+    background-size: cover;
+}
+.last-courses-title
+{
+    background-color: rgba(23,47,72,.871);
+    padding: 60px 20px 10px 20px;
+    margin: 0;
+}
+.last-courses-title h2
+{
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+.last-courses-title p
+{
+    font-size: 18px;
+    line-height: 35px;
+}
+.last-courses-contant
+{
+    background-color: rgba(23,47,72,.871);
+    padding: 20px 20px 60px 20px;
+    margin: 0;
+}
+.lab-icon
+{
+    text-align: center;
+    display: inline-block;
+    color: #357ed7;
+    background-color: white;
+    font-size: 45px;
+    height: 80px;
+    width: 80px;
+    margin-bottom: 25px;
+}
+.courses-contant-title
+{
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+.courses-contant-text
+{
+    font-size: 17px;
+    margin-bottom: 45px;
+}
+.courses-contant-apply
+{
+    padding-top: 10px;
+    text-align: center;
+    color: #1fc2d9;
+    border: 1px solid #1fc2d9;
+    width: 170px;
+    height: 50px;
+    margin-bottom: 25px;
+}
+.courses-contant-apply:hover
+{
+    background-color: #1fc2d9;
+    color: white;
+}
+.courses-contant-apply:focus
+{
+    box-shadow: 0 0 0 0;
 }
 /* end of "last courses" section style*/
 
@@ -201,9 +273,34 @@ footer .copyRight a:hover
 }
 /*End of footer style*/
 
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px)
+ {
+      /* "last courses" section style*/
+    .last-courses-title
+    {
+        padding: 60px 15% 10px 15%;
+    }
+    .last-courses-contant
+    {
+        padding: 20px 15% 60px 15%;
+    }
+      /* end of "last courses" section style*/
+ }
+/*End of "576px" width*/
+
 /*The style of the body with width between "768px" and "992px"*/
 @media(min-width:768px)
 {
+    /* "last courses" section style*/
+    .last-courses-contant div 
+    {
+        float: left;
+        width: 42%;
+        margin: 0 20px;
+    }
+    /* end of "last courses" section style*/
+
     /*The style of the form in the footer when the screen's width between "768px" and "992px"*/
     footer form
     {
@@ -229,6 +326,30 @@ footer .copyRight a:hover
 /*The style of the body with minimum width "992px"*/
 @media(min-width:992px)
 {
+    /* "last courses" section style*/
+    .last-courses-title
+    {
+        padding: 60px 0 10px 6%;
+    }
+    .last-courses-title h2
+    {
+        width: 300px;
+    }
+    .last-courses-title p
+    {
+        width: 520px;
+    }
+    .last-courses-contant
+    {
+        padding: 20px 0 60px 5%;
+    }
+    .last-courses-contant div 
+     {
+         width: 300px;
+         margin: 0 10px 0 0;
+     }
+    /* end of "last courses" section style*/
+
      /*The style of the "Apply for Admission" section when the screen has minimum width "992px"*/
     #apply
     {
@@ -269,3 +390,49 @@ footer .copyRight a:hover
     /*End of footer style*/
 }
 /*End of "992px" width*/
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px)
+{
+    /* "last courses" section style*/
+    .last-courses-right
+    {
+        float: left;
+        width: 35%;
+        display: block;
+        height: 725px;
+    }
+    .last-courses-left
+    {
+        float: left;
+        width: 65%;
+        margin: 0;
+    }
+    .last-courses-title
+    {
+        padding: 60px 10px 10px 100px;
+        width: 100%;
+    }
+    .last-courses-title h2
+    {
+        width: 90%;
+        font-size: 45px;
+    }
+    .last-courses-title p
+    {
+        width: 90%;
+        font-size: 20px;
+    }
+    .last-courses-contant
+    {
+        padding: 20px 0 60px 100px;
+        float: right;
+        width: 100%;
+    }
+    .last-courses-contant div 
+     {
+         width: 300px;
+         margin: 0 20px 0 0;
+     }
+      /* end of "last courses" section style*/
+}
