@@ -82,6 +82,8 @@ border: none;}
     border-color:#8a8686 ;
 }
   /* end section of popular */
+
+/*"last courses" section style*/
 #last-courses
 {
     width: 100%;
@@ -318,27 +320,7 @@ border: none;}
 
     
 }
-
-
-
 /* end recent event*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*The style of the "Apply for Admission" section*/
 #apply
