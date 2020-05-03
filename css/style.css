@@ -81,6 +81,182 @@
 }
 /* end of "last courses" section style*/
 
+/*******************************************************************************************************/
+
+/* start recent event style*/
+
+.recent_event{
+    margin: 100px auto;
+    padding: 70px auto;
+    width: 90%;
+    font-size: 20px;
+    font-family:initial;
+    background-color: #ffffff;
+    margin-top: 150px;
+    margin-bottom: 200px;
+
+    
+}
+
+
+.fr_recent{
+    margin: 40px auto 60px auto;
+    width: 50%;
+    
+        
+}
+.h1{
+    color: #091138cc;
+    font-weight: 900;
+}
+
+.smal_div1 {
+    width: 20%;
+    border: 2px;
+    border-radius: 10px;
+    background-color: #2196F3;
+    color: #fff;
+    text-align: center;
+    padding-top: 40px;
+}
+.smal_div2 {
+    width: 20%;
+    border: 2px;
+    border-radius: 10px;
+    background-color: #ff9800c2;
+    color: #fff;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.col_se_recent {
+    margin: 50px 10% ;
+    border: 1px solid #e0e0e0;
+    width: 80%;
+    height: 180px;
+    border-radius: 15px;
+
+}
+.sec_recent{
+    margin-top: 40px;
+}
+.smal_time{
+    display: flex;
+    justify-content: space-around;
+}
+
+.bh{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.bhb{
+    margin-top: 20%;
+    font-weight: 900;
+}
+/* madia query*/
+@media(max-width: 600px){
+    .fr_recent{
+        text-align: center !important;
+        width: 90%;
+        font-size: 40px;
+        margin-bottom: 100px;
+    }
+    .h1{
+        font-size: 50px;
+        margin-bottom: 50px;
+}
+    .col_se_recent {
+        display: block !important;
+       width: 98%;
+       height: 700px;
+       margin: 50px 2%;
+       font-size: 30px;
+    }
+    .smal_div1{
+        width: 100%;
+        height: 300px;
+        font-size: 40px;
+    }
+    .bhb {
+    margin-top: 5%;
+    font-weight: 900;
+    font-size: 100px;
+}
+    .smal_time{
+        font-size: 15px;
+        
+}
+    .smal_div2{
+        width: 100%;
+        height: 300px;
+        font-size: 40px;
+    }
+
+    
+}
+ @media(min-width: 601px) and (max-width:768px){
+    .fr_recent{
+        text-align: center !important;
+        width: 70%;
+        font-size: 30px;
+         /*margin-bottom: 100px;*/
+        margin: 100px 15%;
+    }
+    .h1{
+        font-size: 60px;
+        margin-bottom: 50px;
+}
+    .col_se_recent {
+        display: block !important;
+       width: 90%;
+       height: 700px;
+       margin: 50px 5%;
+       font-size: 30px;
+    }
+    .smal_div1{
+        width: 100%;
+        height: 300px;
+        font-size: 40px;
+    }
+    .bhb {
+    margin-top: 5%;
+    font-weight: 900;
+    font-size: 100px;
+}
+    .smal_time{
+        font-size: 15px;
+        
+}
+    .smal_div2{
+        width: 100%;
+        height: 300px;
+        font-size: 40px;
+    }
+
+    
+}
+
+
+
+/* end recent event*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*The style of the "Apply for Admission" section*/
 #apply
 {
