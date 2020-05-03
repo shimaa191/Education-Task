@@ -1,4 +1,87 @@
-/* "last courses" section style*/
+/* start section of popular */
+.popular .lab2 h3 {
+    font-family: abril fatface,cursive;
+    color: #234262;
+    font-size: 189%;
+    font-weight: 800;
+    margin-bottom: 35px;
+}
+.popular{
+    display: block;
+    margin-bottom: 65px;
+    margin-top: 67px;
+}
+.popular .custom{
+    background-color:rgb(244, 250, 249);
+    height: 38px;
+    margin-bottom: 75px;
+}
+.popular .custom a{
+    margin:2% ;
+    text-decoration: none;
+    color:#234262 ;
+    font-size: 119%;
+}
+.popular .custom a:active{
+    background-color: #cee3f8;
+    color: #fff;
+}
+.popular .custom a:link {
+    color: #fff;
+  }
+  .card {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+border: none;}
+.card-img, .card-img-top {
+    border-top-left-radius: calc(0.25rem - 1px);
+    border-top-right-radius: calc(0.25rem - 1px);
+    width: 110%;
+    height: 280px;
+}
+.card-title {
+    margin-bottom: 0.75rem;
+    font-family:abril fatface,cursive;
+}
+.card p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    color: #c0c0c0;
+}
+.card .cp{
+    color: black;
+    font-size: 21px;
+}
+.btn-primary {
+    color: #9cd5f0;
+    background-color: #fff;
+    border-color: #a0c7f1;
+    width: 92%;
+}
+.btn-danger {
+    color: #302e2e;
+    background-color: #fff;
+    border-color: #8a8686;
+    font-size:110%;
+    width: 32%;
+    margin-top: 22px;
+    width: 32%;
+    margin-top: 22px;
+    margin-left: 30%;
+}
+.btn-danger:hover{
+    background-color:#8a8686 ;
+    color: #fff;
+    border-color:#8a8686 ;
+}
+  /* end section of popular */
 #last-courses
 {
     width: 100%;
