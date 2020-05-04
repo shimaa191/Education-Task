@@ -1,3 +1,15 @@
+/* start global*/
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+/*end global*/
+/**************************************************/
+/*start body*/
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
 /* For All Document */
 a,a:hover{
     text-decoration: none;    
@@ -165,7 +177,7 @@ nav ul li a:hover{
     background-color: #66d0f0;
     color: #fff;
 }
-.card {
+.popular .card {
     position: relative;
     display: flex;
     -ms-flex-direction: column;
@@ -176,22 +188,22 @@ nav ul li a:hover{
     border: none;
     border-radius: 3px;
 }
-.card-img, .card-img-top {
+.popular .card-img,.popular .card-img-top {
     border-top-left-radius: calc(0.25rem - 1px);
     border-top-right-radius: calc(0.25rem - 1px);
     width: 110%;
     height: 280px;
 }
-.card-title {
+.popular .card-title {
     margin-bottom: 0.75rem;
     font-family:abril fatface,cursive;
 }
-.card p {
+.popular .card p {
     margin-top: 0;
     margin-bottom: 1rem;
     color: #7d84ab;
 }
-.card .cp{
+.popular .card .cp{
     color: black;
     font-size: 21px;
 }
@@ -536,7 +548,137 @@ nav ul li a:hover{
 }
 /*End of "Apply for Admission" Section style*/
 
+/**************************************************/
+/* start the section about recent news*/
+#news{
+    height:1200px;
+    padding:0;
+    overflow: hidden;
 
+}
+#news .intro{
+    text-align: center;
+    padding:200px 20px 50px 20px;
+    height:460px;
+}
+#news .intro h1{
+    font-size:60px;
+    font-weight:bolder;
+    padding:10px;
+    color:rgb(20, 20, 87);
+    text-transform: capitalize;
+}
+#news .intro p{
+    color:rgb(132, 154, 179);
+    padding:10px 210px;
+    line-height: 1.9;
+    font-size:20px;
+}
+#news .card-group{
+    border: hidden;
+}
+#news .card-group .cont-card{
+    overflow: hidden;
+    border-radius: 20px;
+    border:1px solid rgb(234, 234, 234);
+}
+#news .card-group .cont-card .cont-image{
+    overflow: hidden;
+    position: relative;
+}
+#news .card-group .cont-card .cont-image .badge{
+    position:absolute;
+    bottom: 0;
+    left:0;
+    font-size: 15px;
+    margin:auto;
+    text-align: center;
+    padding:10px 40px;
+    color:rgb(255, 255, 255);
+    text-transform: capitalize;
+    font-weight: lighter;
+}
+#news .card-group .cont-card .cont-image img{
+    transition: all 0.3s ease-in-out;
+}
+#news .card-group .cont-card:hover img{
+    transform:scale(1.08);
+    cursor:pointer;
+}
+#news .card-group .cont-card .card-body{
+    padding:45px;
+}
+#news .card-group .cont-card .card-body .card-title{
+    color:rgb(20, 20, 87);
+    font-size:25px;
+    font-weight: bolder;
+    line-height: 1.3;
+    text-transform: capitalize;
+}
+#news .card-group .cont-card .card-body p{
+    color:rgb(120, 124, 174);
+}
+#news .card-group .cont-card .card-body p span:first-child::after{
+    content: "|";
+    padding:0 10px;
+}
+#news .card-group .cont-card .card-body p span i{
+    padding:20px 7px 20px 0;
+}
+@media(max-width: 1200px){
+    #news .intro{
+        height:385px;
+    }
+    #news .intro h1{
+        padding:10px;
+    }
+    #news .intro p{
+        padding:5px 160px;
+        line-height: 1.8;
+
+    }
+}
+@media(max-width: 992px){
+    #news .intro{
+        height:400px;
+    }
+    #news .intro h1{
+        padding:10px;
+    }
+    #news .intro p{
+        padding:5px 60px;
+        line-height: 1.5;
+    }
+    #news .card-group .cont-card .card-body{
+        padding:25px;
+    }
+}
+
+@media(max-width: 768px){
+    #news{
+        height:1800px;
+        padding:0;
+    }
+    #news .intro{
+        height:400px;
+    }
+    #news .intro h1{
+        padding:10px;
+        font-size: 45px;
+    }
+    #news .intro p{
+        padding:5px 20px;
+        line-height: 1.7;
+    }
+    #news .card-group .col-md-6{
+        padding:35px;
+    }
+    #news .card-group .cont-card .card-body{
+        padding:25px;
+    }
+}
+/* end the section about recent news*/
+/**************************************************/
 
 /*The style of the footer*/
 footer
