@@ -2,7 +2,11 @@
 a,a:hover{
     text-decoration: none;    
 }
-
+::selection
+{
+    background-color: #444;
+    color: #fff;
+}
 /* Header */
 .header_top{
     color: white;
@@ -185,22 +189,28 @@ nav ul li a:hover{
 .card p {
     margin-top: 0;
     margin-bottom: 1rem;
-    color: #c0c0c0;
+    color: #7d84ab;
 }
 .card .cp{
     color: black;
     font-size: 21px;
 }
 .btn-primary {
-    color: #9cd5f0;
+    color: #1fc2d9;
     background-color: #fff;
-    border-color: #a0c7f1;
+    border-color: #1fc2d9;
     width: 92%;
 }
+.btn-primary:hover
+{
+    color: #fff;
+    background-color: #1fc2d9;
+    border-color: #1fc2d9;
+}
 .btn-danger {
-    color: #302e2e;
+    color: #1a1c28;
     background-color: #fff;
-    border-color: #8a8686;
+    border-color: #77899d;
     font-size:110%;
     width: 32%;
     margin-top: 22px;
@@ -209,9 +219,9 @@ nav ul li a:hover{
     margin-left: 30%;
 }
 .btn-danger:hover{
-    background-color:#8a8686 ;
+    background-color:#77899d ;
     color: #fff;
-    border-color:#8a8686 ;
+    border-color:#77899d ;
 }
   /* end section of popular */
 
