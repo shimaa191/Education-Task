@@ -147,32 +147,31 @@ nav ul li a:hover{
 .popular .custom{
     background-color:rgb(244, 250, 249);
     height: 38px;
+    width: 50%;
     margin-bottom: 75px;
+    margin-left: 25%;
 }
 .popular .custom a{
-    margin:2% ;
+    padding:.5%;
     text-decoration: none;
     color:#234262 ;
-    font-size: 119%;
+    font-size: 1.4rem;
 }
 .popular .custom a:active{
-    background-color: #cee3f8;
+    background-color: #66d0f0;
     color: #fff;
 }
-.popular .custom a:link {
-    color: #fff;
-  }
-  .card {
+.card {
     position: relative;
-    display: -ms-flexbox;
     display: flex;
     -ms-flex-direction: column;
     flex-direction: column;
-    min-width: 0;
+    max-width:95%;
     word-wrap: break-word;
     background-color: #fff;
-    background-clip: border-box;
-border: none;}
+    border: none;
+    border-radius: 3px;
+}
 .card-img, .card-img-top {
     border-top-left-radius: calc(0.25rem - 1px);
     border-top-right-radius: calc(0.25rem - 1px);
