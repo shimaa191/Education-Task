@@ -155,7 +155,7 @@ nav ul li a:hover{
     padding:.5%;
     text-decoration: none;
     color:#234262 ;
-    font-size: 1.4rem;
+    font-size: 1.4rem ;
 }
 .popular .custom a:active{
     background-color: #66d0f0;
