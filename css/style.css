@@ -1,3 +1,136 @@
+/* For All Document */
+a,a:hover{
+    text-decoration: none;    
+}
+
+/* Header */
+.header_top{
+    color: white;
+    padding-top: 1%;    
+    position: sticky;
+}
+.header_top .right{    
+    width: 12%;
+}
+.header_top .right a{
+    color: white;    
+}
+#register{padding-left:10%;}
+    /* Nav */
+#Nav{
+    height:17vh ;
+    padding-top: 1.5%;
+    position: fixed;
+    background-color: white;    
+    z-index: 22;
+}
+.header_left{
+    width:40%;       
+}
+nav ul li{
+    list-style:none;
+    display: inline-block;
+    padding-top: 1%;
+    margin:0 10px ;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+nav ul li a{
+    color: rgb(84, 84, 85);
+}
+nav ul li a:hover{
+ text-decoration: none;
+ color: rgb(5, 0, 0);
+}
+    /* Drop down */
+.drop{
+    position: relative;
+}
+.header_right #submenu1,.header_right #submenu2{
+    display: none;
+    position: absolute;    
+    width: 200px;
+    text-align: left;
+    top: 210%;
+    padding-left: 0;
+    background-color: white;
+}
+#submenu1 li,#submenu2 li{
+    width: 100%;    
+}
+.header_right #submenu1 a,.header_right #submenu2 a{
+    display: block;
+    padding:5%;    
+    width: 100%;
+}
+
+    /* Button */
+.header_right .btn a{
+    background: #234262;
+    padding: 13px 50px;
+    font-size: 16px;
+    font-weight: 400;
+    border: 1px solid transparent;
+    color: #fff;
+}
+.header_right .btn a:hover{
+    text-decoration: none;
+    background-color: unset;
+    color:#234262 ;
+    border-color:#234262 ;
+}
+    /* End of Header */
+/* Start banner's section */
+.banner{
+    margin-top: 4%;
+    height: 140vh;
+    background-image: url(../images/banner/banner.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;    
+}
+.banner .txt h3{
+    color: #234262;
+    font-family: cursive;
+    font-size: 4rem;
+    font-weight: 600;
+    line-height: 1.16;
+    margin-bottom: 62px;
+    margin-top: 15%;
+}
+.banner .btn{    
+    padding: 17px 50px;
+    font-size: 16px;
+    font-weight: 400;
+    border: 1px solid transparent;
+    border-radius: 3px;
+}
+.banner .btn2{
+    background: #1fc2d9;
+    color: #fff;
+}
+.banner .btn:hover{
+    text-transform: uppercase;
+    background-color: unset;
+    color:#1fc2d9 ;
+    border-color:#1fc2d9 ;
+}
+.banner .btn2:hover{
+    color:#1fc2d9 ;
+    border-color:#1fc2d9 ;
+}    
+.banner .btn3{
+    padding: 17px 40px;
+    color: #1a1c28;
+    border-color:#1a1c28;
+    margin-left: 1%;
+}
+.banner .btn3:hover{
+    background-color:rgb(119, 137, 157); ;
+    border-color:rgb(119, 137, 157) ;
+    color: white;
+}   
+/* End of banner's section */
 /* start section of popular */
 .popular .lab2 h3 {
     font-family: abril fatface,cursive;
